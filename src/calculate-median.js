@@ -12,15 +12,12 @@ function calculate_median(arr) {
 
 
 var len=Math.ceil(c.length/2)+1;
-(function()
-{
+
 	if(len%2==0)
 	return (c[len/2]+c[len/2-1])/2;
-else
+                else
 	return c[len/2-1];
-}
-)
-();
+
   }
 
 
