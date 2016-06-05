@@ -16,7 +16,7 @@ var len=Math.ceil(c.length/2)+1;
 	if(len%2==0)
 	return (c[len/2]+c[len/2-1])/2;
                if(len%2==1)
-	return c[Math.floor(len/2)-1];
+	return c[Math.floor(len/2)];
 
   }
 
